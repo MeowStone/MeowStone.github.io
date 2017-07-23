@@ -125,7 +125,16 @@ function playBackground() {
   // add slide image
   var slides = [];
       slides.push({
-        src: './galex.jpg'
+        src: './galex1.jpg'
+      });
+	  slides.push({
+        src: './galex2.jpg'
+      });
+	  slides.push({
+        src: './galex3.jpg'
+      });
+	  slides.push({
+        src: './galex4.jpg'
       });
 /* 
   if(backgroundImages && backgroundImages.length > 0) {
