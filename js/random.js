@@ -93,7 +93,7 @@ function openUserCard() {
   /*$("#user-card").modal({
     showClose: false
   });*/
-  showHideToggle();
+  /*showHideToggle();
   $.fancybox({
     type: 'html',
     autoSize: true,
@@ -102,7 +102,7 @@ function openUserCard() {
     content: $("#user-card"),
     closeBtn: false,
     afterClose: showHideToggle
-  });
+  });*/
 }
 
 var isTOCShow = true;
