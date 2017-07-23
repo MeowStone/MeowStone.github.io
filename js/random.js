@@ -124,16 +124,20 @@ function playBackground() {
   // vegas config
   // add slide image
   var slides = [];
-  if(backgroundImages && backgroundImages.length > 0) {
+  slides.push({
+        src: './galex.jpg?imageView2/1/w/__width__/h/__height__'.replace('__width__', window.screen.availWidth).replace('__height__', window.screen.availHeight)
+      }
+  )
+  /*if(backgroundImages && backgroundImages.length > 0) {
     backgroundImages.forEach(function(img){
       if(!img) return;
       slides.push({
         src: img.replace('__width__', window.screen.availWidth).replace('__height__', window.screen.availHeight)
       });
     });
-  }
+  }*/
   // slides = [];
-  if(slides.length === 0) {
+  /*if(slides.length === 0) {
     var endWith = '';
     var greyscale = '';
     if(unsplashConfig) {
@@ -153,7 +157,8 @@ function playBackground() {
         src: ['https://unsplash.it', greyscale, '/', window.screen.availWidth, '/',window.screen.availHeight, '?random&t=', i, endWith].join('')
       });
     }
-  }
+  }*/
+  
   // check vegas config
   if('object' !== typeof vegasConfig) {
     vegasConfig = {
