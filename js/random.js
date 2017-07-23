@@ -124,17 +124,19 @@ function playBackground() {
   // vegas config
   // add slide image
   var slides = [];
-  slides.push({
-        src: backgroundImages.img.replace('__width__', window.screen.availWidth).replace('__height__', window.screen.availHeight)
-      })
-  /*if(backgroundImages && backgroundImages.length > 0) {
+      slides.push({
+        src: './galex.jpg'
+      });
+/* 
+  if(backgroundImages && backgroundImages.length > 0) {
     backgroundImages.forEach(function(img){
       if(!img) return;
       slides.push({
         src: img.replace('__width__', window.screen.availWidth).replace('__height__', window.screen.availHeight)
       });
     });
-  }*/
+  }
+ */
   // slides = [];
   /*if(slides.length === 0) {
     var endWith = '';
